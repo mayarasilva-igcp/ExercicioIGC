@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharepoint IGC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style-IGC.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-igc">
+                <img src="getsitelogo.png" height="55">
+                <button class="seguir" onclick="alterarTextoESeguir()">&#9734; Não seguindo</button>
+            </div>
+        </nav>
+    </header>
+    <script>
+        function alterarTextoESeguir() {
+            var botao = document.querySelector('.seguir');
+
+            if (botao.innerText === 'Seguir') {
+                botao.innerText = 'Não seguindo';
+                botao.style.backgroundColor = 242424;
+            } else {
+                botao.innerText = 'Não seguir';
+                botao.innerText = '★ Seguindo';
+                botao.style.color = rgb(0, 78, 140);
+            }
+        }
+    </script>
+    </nav>
+    <section>
+        <div class="imagem-igc" id="content.png">
+            <a href="#" data-src="content.png">
+                <img src="content.png" alt="Imagem-IGC" class="imagem-topo">
+            </a>
+        </div>
+
+        <main>
+            <div class="backgroundColor">
+                <div class="centralizado">
+                    <h2 class="ajustar-texto">
+                        Bem-vindos ao igc Connect!
+                    </h2>
+                    <p class="ajustar-texto__2">O novo site da igc voltado apenas para nossos colaboradores internos.
+                    </p>
+                    <p class="ajustar-texto__2">Aqui você poderá acessar rapidamente os mais diversos conteúdos,
+                        treinamentos, ferramentas e comunicados disponibilizados por todos os times da igc. Também pode
+                        saber mais sobre nossa liderança, cultura e posicionamento da igc.</p>
+                </div>
+        </main>
+        </div>
+    </section>
+
+    <h3 class="ajustar-texto__3">Nossa liderança, times e posicionamento</h3>
+
+    <section class="trio-imagens">
+        <div>
+            <img src="nossos socios.jpg" height="180" width="200">
+            <p class="ajustar-texto__4">Nossos sócios</p>
+
+        </div>
+        <div>
+            <img src="nossos times.jpeg" height="180" width="200">
+            <p class="ajustar-texto__4">Nossos times</p>
+        </div>
+        <div>
+            <img src="posicionamento.jpeg" height="180" width="200">
+            <p class="ajustar-texto__4">Posicionamento</p>
+        </div>
+    </section>
+    <h3 class="ajustar-texto__3">Acesso as principais ferramentas?</h3>
+    <div class="ajustar-botoes">
+        <button class="botao">File Server</button>
+        <button class="botao">TTR</button>
+        <button class="botao">Capital IQ</button>
+        <button class="botao">Merger <br> Market</button>
+        <button class="botao">Deal Cloud</button>
+        <button class="botao">Neoway</button>
+        <button class="botao">Box | Login</button>
+        <button class="botao">Intralinks</button>
+        <button class="botao">Inicial - Kronoos</button>
+        <button class="botao">Academy | Treinamentos</button>
+    </div>
+    <section class="estilizar-fundo">
+        <div class="eventos-carrossel">
+            <div class="container-esquerdo">
+                <div id="container-eventos" class="eventos-futuros">
+                    <span>Eventos Futuros:</span>
+                    <a class="ver-tudo" href="#ver_tudo">Ver tudo</a>
+                </div>
+                <button class="btn-adicionar-evento"> &#43; Adicionar evento</button>
+                <div class="container-eventos">
+                    <div class="calendario">01/08/2023</div>
+                    <span class="nao-ha-eventos">Não há eventos futuros</span>
+                    <span class="nao-ha-eventos__2">Não existem eventos futuros agendados. Verifique novamente mais
+                        tarde.</span>
+                </div>
+            </div>
+            <div id="container-carrossel" class="container-direito">
+                <h3 class="carrossel__titulo">Notícias</h3>
+                <div class="carrossel-container">
+                    <div class="carousel-slide active">
+                        <img src="dimitri-abudi-igcpartners.webp" width="100" height="100" alt="Dimitri">
+                        <div class="carousel-caption">Nos M&A, a IGC Partners escolheu o lado do vendedor (e tem
+                            incomodado)</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="braun-bandp-rosseti-piticas.jpg" width="100" height="100" alt="Geek">
+                        <div class="carousel-caption">fusão dos geeks: Piticas e BandUP fazem joint venture e criam
+                            cosmos-NeoFeed</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="content.png" width="100" height="100" alt="Content">
+                        <div class="carousel-caption">gc Partners | Top Mergers and Acquisitions Consulting Firm In
+                            Latin America-2023</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="WhatsApp-Image-2023-06-16-at-19.17.46.webp" width="100" height="100"
+                            alt="WhatsApp-Image-2023-06-16-at-19">
+                        <div class="carousel-caption">Near shoring é a tese da vez para aquisições de TI no Brasil, diz
+                            IGC Partners | Exame</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="Captura-de-tela-2023-07-10-160618.png" width="50" height="50" alt="Imagem 5">
+                        <div class="carousel-caption">evista Químicos e Derivados | Fusões e Aquisições seguem em marcha
+                            acelerada.</div>
+                    </div>
+                    <div class="carousel-dots">
+                        <span class="carousel-dot"></span>
+                        <span class="carousel-dot"></span>
+                        <span class="carousel-dot"></span>
+                        <span class="carousel-dot"></span>
+                        <span class="carousel-dot"></span>
+                    </div>
+
+                    <footer class="footer">
+                        <a href="#deal">Nosso deal é com você!</a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+
+        const slides = document.querySelectorAll(".carousel-slide");
+        const dots = document.querySelectorAll(".carousel-dot");
+        const prevArrow = document.querySelector(".carousel-prev");
+        const nextArrow = document.querySelector(".carousel-next");
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            slides.forEach((slide) => (slide.style.display = "none"));
+            dots.forEach((dot) => dot.classList.remove("active"));
+            slides[index].style.display = "block";
+            dots[index].classList.add("active");
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        dots.forEach((dot, index) => dot.addEventListener("click", () => showSlide(index)));
+        prevArrow.addEventListener("click", prevSlide);
+        nextArrow.addEventListener("click", nextSlide);
+        function startAutoSlide() {
+            autoSlideInterval = setInterval(nextSlide, 5000);
+        }
+        function stopAutoSlide() {
+            clearInterval(autoSlideInterval);
+        }
+        dots.forEach((dot, index) => dot.addEventListener("click", () => {
+            stopAutoSlide();
+            showSlide(index);
+        }));
+        prevArrow.addEventListener("click", () => {
+            stopAutoSlide();
+            prevSlide();
+        });
+        nextArrow.addEventListener("click", () => {
+            stopAutoSlide();
+            nextSlide();
+        });
+        showSlide(currentIndex);
+        startAutoSlide();
+        showSlide(currentIndex);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+:root {
+    --fonte: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    --icones-fundo: #ffffff;
+    --letras: #242424;
+    --faixa-bemvindo: rgb(240, 240, 240);
+    --letreiro-texto: rgb(36, 36, 36);
+    --coricone: rgb(0, 78, 140);
+    --backgroundbemvindo: #f0f0f0;
+    --coradc-evento: #9e9e9e;
+    --vertudo: #00457e;
+    --naoexistemeventos: #616161;
+    --backgroundevento: #004e8c;
+}
+
+/* ... estilos anteriores ... */
+
+#container-carrossel {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carrossel__titulo {
+    text-align: center;
+    color: var(--letras);
+    font-size: 20px;
+    font-family: var(--fonte);
+}
+
+.swiper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+.swiper-slide {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: var(--coricone);
+    color: white;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.swiper-button-prev {
+    left: 10px;
+}
+
+.swiper-button-next {
+    right: 10px;
+}
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background-color: var(--coricone);
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--letreiro-texto);
+}
